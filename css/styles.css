@@ -1,0 +1,32 @@
+/*3 types of selectors .. First is type selector*/
+h1 {
+    color: orange;
+    text-align: center;
+
+}
+
+p {
+	font-size: 130%;
+
+}
+
+/*# sign is how we select elements that have id's.*/
+#intro {
+	background-color: yellow;
+}
+
+
+
+/*class selector */
+.first {
+	font-size: 200%;
+}
+
+/*fourth style element selector*/
+#intro .first {
+	color: red;
+}
+
+#intro .first em {
+	color: green;
+}
